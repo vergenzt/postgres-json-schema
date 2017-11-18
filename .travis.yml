@@ -9,9 +9,9 @@ env:
 services:
   - postgresql
 addons:
-  postgresql: "9.4"
+  postgresql: "9.5"
   apt:
     packages:
-      - postgresql-server-dev-9.4
+      - postgresql-server-dev-9.5
 script: python test.py
 language: python
